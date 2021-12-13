@@ -18,8 +18,18 @@ package DataStructureAndAlgorithm;
 
 // *******************************************************
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 public class CustomQueues {
    public CustomQueues(){
+
+       Queue queue = new LinkedList();
+
+       queue.offer("love");
+       queue.offer("happy");
+
+       System.out.println(queue.poll());
 
     }
 }
