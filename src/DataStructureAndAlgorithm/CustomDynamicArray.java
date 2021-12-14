@@ -62,6 +62,13 @@ public class CustomDynamicArray {
        return -1;
     }
 
+    public Object get(int index) {
+
+        return array[index];
+
+    }
+
+
     private void grow(){
        int newCapacity = (int) (capacity * 2);
        Object[] newArray = new Object[newCapacity];
