@@ -1,5 +1,12 @@
 package DataStructureAndAlgorithm;
 
+// selection sort = search through an array and keep track of the minimum value during
+//     each iteration. At the end of each iteration, we swap variables.
+
+//     Quadratic time O(n^2)
+//     small data set = okay
+//     large data set = BAD
+
 public class CustomSelectionSort {
 
     int[] arary = {2,4,7,9,3,8,3};
