@@ -2,11 +2,11 @@ package DataStructureAndAlgorithm;
 
 import java.util.Random;
 
-public class Test {
+public class QuickSort2 {
     Random rand = new Random();
     int[] array = new int[10];
 
-    public Test(){
+    public QuickSort2(){
         for (int i = 0; i < array.length; i++) {
             array[i] = rand.nextInt(100);
         }
