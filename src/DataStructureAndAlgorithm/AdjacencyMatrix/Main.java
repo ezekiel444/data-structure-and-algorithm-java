@@ -1,4 +1,4 @@
-package DataStructureAndAlgorithm.Graphs;
+package DataStructureAndAlgorithm.AdjacencyMatrix;
 
 
 public class Main {
